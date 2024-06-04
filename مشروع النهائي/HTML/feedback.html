@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>feedback</title>
+    <link rel="stylesheet" href="../CSS/feedback.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form >
+    <div class="container">
+      <h2>Real-time Charater Counter</h2>
+      <textarea
+        id="textarea"
+        class="textarea"
+        placeholder="Please write your text here..."
+        maxlength="50"
+      ></textarea>
+      <div class="counter-container">
+        <p>
+          Total Charaters:
+          <span class="total-counter" id="total-counter">30</span>
+        </p>
+        <p>
+          Remaining:
+          <span class="remaining-counter" id="remaining-counter">20</span>
+          <br>
+          <div class="g-recaptcha" data-sitekey="6LeHLeopAAAAAIhSiHWRxUX7UfuL28DwXcKtkSBh"></div>
+          <br>
+        </p>
+        <input type="submit">
+      </div>
+    </div>
+    </form>
+    <script src="../JS/feedback.js"></script>
+  </body>
+</html>

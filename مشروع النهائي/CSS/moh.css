@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #eeeeee;
+    font-family: monospace;
+  }
+  /* body decreased margin to 0 changed background color and placed a font */
+  
+  /* inturduction below the main header */
+  .aboutus {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-family: Monospace;
+  }
+  /* the nav bar */
+  nav {
+    width: 99%;
+    height: 70px;
+    background-color: rgb(12, 44, 68);
+    display: flex;
+    position: sticky;
+    top: 0px;
+  }
+  /* the photo in the navbar */
+  #navphoto {
+    width: 200px;
+    height: 70px;
+  }
+  /* the div in the nav bar */
+  #navdiv {
+    width: 70%;
+    height: 100%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+  }
+  .navwords {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-right: 60px;
+    transition: all 0.2s ease-in-out;
+  }
+  .navwords:hover {
+    box-shadow: 1px 1px #0b273d, 2px 2px #0b273d;
+    transform: translateX(-3px);
+  }
+  /* icons in the nav bar */
+  .navicons {
+    width: 40px;
+    height: 40px;
+  }
+  /* the login button in the navbar */
+  #logindiv {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+  }
+  /* login button */
+  #login {
+    width: 50px;
+    height: 50px;
+  }
+  .login-button {
+    background-color: #0c2c44;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 220px;
+     margin-bottom: 70px;
+    font-size: 10px ;
+    border-radius: 10px;
+    border: solid rgb(255, 255, 255) 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+   
+   
+    padding: 0 20px; 
+    text-align: center;
+    
+}
+p{
+    font-size: large;
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+button {
+    --color: #1f446f;
+    font-family: inherit;
+    display: inline-block;
+    width: 6em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 17px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  button::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  button:hover {
+    color: white;
+  }
+  
+  button:before {
+    top: 100%;
+    left: 100%;
+    transition: 0.3s all;
+  }
+  
+  button:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+  
+ 
+  #footer {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+  
+    align-items: center;
+    
+    list-style-type: none;
+    margin-bottom: 50px;
+  } 
+  /* img in footer */
+  .img1 {
+    width: 20px;
+    height: 20px;
+  }
+  /* links in footer */
+  .footerlinks {
+    text-decoration: none;
+    color: white;
+  }
+  /* hover effect for links in footer */
+  .footerlinks:hover {
+    text-decoration: underline;
+  }
+  /* email in the footer */
+  #email {
+    color: white;
+  }
+  /* footer */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #45474b;
+    align-items: flex-end;
+    height: 160px;
+  }
+  /* list items in the footer */
+  #footer li {
+   display: flex;
+   flex-direction: row;
+  }
+  /* socials in footer */
+  .social {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px;
+  }
+  .logo-footer {
+    display: flex;
+    justify-content: flex-end;
+  
+    height: 110px;
+    width: 30px;
+    margin-bottom: 60px;
+  }
+  .email-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 60px;
+  }
+  
+  .socialcontainer{
+    display: flex;
+   margin-left: 10px;
+   margin-right: 10px;
+  }
+  .tac{
+    margin-left: 5px;
+  }

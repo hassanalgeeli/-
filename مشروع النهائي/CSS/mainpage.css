@@ -1,0 +1,337 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #ffffff;
+  font-family: monospace;
+}
+/* body decreased margin to 0 changed background color and placed a font */
+
+/* inturduction below the main header */
+.aboutus {
+  text-align: center;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  font-family: Monospace;
+}
+/* the nav bar */
+nav {
+  width: 99%;
+  height: 70px;
+  background-color: rgb(12, 44, 68);
+  display: flex;
+  position: sticky;
+  top: 0px;
+}
+/* the photo in the navbar */
+#navphoto {
+  width: 200px;
+  height: 70px;
+}
+/* the div in the nav bar */
+#navdiv {
+  width: 70%;
+  height: 100%;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+.navwords {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 90px;
+  margin-right: 60px;
+  transition: all 0.2s ease-in-out;
+}
+.navwords:hover {
+  box-shadow: 1px 1px #0b273d, 2px 2px #0b273d;
+  transform: translateX(-3px);
+}
+/* icons in the nav bar */
+.navicons {
+  width: 40px;
+  height: 40px;
+}
+/* the login button in the navbar */
+#logindiv {
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+}
+/* login button */
+#login {
+  width: 50px;
+  height: 50px;
+}
+.login-button {
+  background-color: #0c2c44;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* cards of cities */
+.cardsh {
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  height: 220px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  border: solid black 3px;
+  display: flex;
+  justify-content: space-between; /* لتوزيع المساحة بين العناصر بشكل متساوي */
+  align-items: center; /* لمحاذاة العناصر عمودياً في المنتصف */
+  padding: 0 20px; /* لإضافة مساحة داخلية للتحكم في المسافة */
+}
+/* main text */
+.maintext {
+  font-size: 30px;
+  color: white;
+}
+/* buttons in the cards */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 125px;
+}
+/* buttons */
+.buttonsh {
+  background-color: rgb(62, 113, 180);
+  border-radius: 15px;
+  width: 70px;
+  height: 40px;
+}
+
+.idsh {
+  width: 100%;
+  height: 100%;
+}
+#mainphoto {
+  background-image: linear-gradient(
+      90deg,
+      rgba(12, 44, 68, 0.9698004201680672) 55%,
+      rgba(12, 44, 68, 0.9698004201680672) 67%,
+      rgba(0, 0, 0, 0.8409488795518207) 100%
+    ),
+    url(../img/1aa70c7a-621f-4f2d-8d5e-4f776c05ab41.jpg);
+    background-repeat: no-repeat;
+    height:760px ;
+}
+
+/* cards */
+.card {
+  border: solid #0c2c44;
+  border-width: 3px;
+  width: 250px;
+  height: 300px;    
+  border-radius: 10px;
+  background-size: cover;
+  background-color: #0c2c44;
+}
+/* buttons in card */
+.cardsbutton {
+  width: 150px;
+  height: 40px;
+  margin-top: 70px;
+  width: 6.5em;
+  height: 2.3em;
+  /* margin: 0.5em; */
+  background: white;
+  color: #0c2c44;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+button {
+  text-decoration: none;
+  color: black;
+}
+.cardsbutton:hover {
+  color: rgb(255, 255, 255);
+}
+.cardsbutton:after {
+  content: "";
+  background: #000000;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+}
+
+.cardsbutton:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.cardsh1 {
+  color: #e8e8e8;
+  margin-top: 70px;
+  font-size: 40px;
+}
+
+.startnow {
+  background-color: #ffffff;
+  margin: 0px;
+  font-family: Monospace;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+button {
+  color: #000000;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #0044ff;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  margin-bottom: 10px;
+  animation: bounce;
+  animation-duration: 2s;
+}
+button:active {
+  color: #666;
+  animation: bounce;
+  animation-duration: 2s;
+}
+/* card container */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  height: 500px;
+}
+
+/* imgs */
+.img2 {
+  width: 50px;
+  height: 60px;
+}
+/* cards */
+.card2 {
+  width: fit-content;
+  height: fit-content;
+  background-color: #45474b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+
+/* main */
+#mainwords {
+  width: 100%;
+  height: 500px;
+}
+/* the h1 div */
+#h1div {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  font-size: 30px;
+  color: white;
+ margin-top: 80px;
+  margin-bottom: 150px;
+}
+/* footer */
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+
+  align-items: center;
+  
+  list-style-type: none;
+  margin-bottom: 50px;
+} 
+/* img in footer */
+.img1 {
+  width: 20px;
+  height: 20px;
+}
+/* links in footer */
+.footerlinks {
+  text-decoration: none;
+  color: white;
+}
+/* hover effect for links in footer */
+.footerlinks:hover {
+  text-decoration: underline;
+}
+/* email in the footer */
+#email {
+  color: white;
+}
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #45474b;
+  align-items: flex-end;
+}
+/* list items in the footer */
+#footer li {
+ display: flex;
+ flex-direction: row;
+}
+/* socials in footer */
+.social {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 5px;
+}
+.logo-footer {
+  display: flex;
+  justify-content: flex-end;
+
+  height: 110px;
+  width: 30px;
+  margin-bottom: 60px;
+}
+.email-footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+.socialcontainer{
+  display: flex;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.tac{
+  margin-left: 5px;
+}

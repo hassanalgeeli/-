@@ -1,0 +1,241 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+
+nav {
+    width: 99%;
+    height: 70px;
+    background-color: rgb(12, 44, 68);
+    display: flex;
+    position: sticky;
+    top: 0px;
+  }
+  /* the photo in the navbar */
+  #navphoto {
+    width: 200px;
+    height: 70px;
+  }
+  /* the div in the nav bar */
+  #navdiv {
+    width: 70%;
+    height: 100%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+  }
+  .navwords {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-right: 60px;
+    transition: all 0.2s ease-in-out;
+  }
+  .navwords:hover {
+    box-shadow: 1px 1px #0b273d, 2px 2px #0b273d;
+    transform: translateX(-3px);
+  }
+  /* icons in the nav bar */
+  .navicons {
+    width: 40px;
+    height: 40px;
+  }
+  /* the login button in the navbar */
+  #logindiv {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+  }
+  /* login button */
+  #login {
+    width: 50px;
+    height: 50px;
+  }
+  .login-button {
+    background-color: #0c2c44;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+
+
+.card{
+    
+    height: 350px;
+    width: 250px; 
+    text-align: center;
+    border-radius: 7px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+    position: relative;
+    padding-top:10px ;
+    margin: 40px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+.boys-grade{
+    background-color: rgb(3, 10, 106);
+    border-top-left-radius: 50%;
+    width:35%;
+     position: absolute; 
+    right: 0px;
+    bottom: 0px;
+    height: 73px;
+    color: rgb(231, 232, 232);
+}
+
+
+
+
+.girls-grade{
+    background-color: rgba(113, 1, 1, 0.536);
+    border-top-right-radius: 50%;
+    width:35%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 73px;
+color: rgb(231, 232, 232);
+
+}
+
+
+.girls-grade h6{
+    margin-top: 18px;
+}
+.girls-grade p{
+    margin-top: -20px;
+}
+.boys-grade h6{
+    margin-top: 18px;
+}
+.boys-grade p{
+    margin-top: -20px;
+}
+
+.card h3{
+
+}
+
+.k1{
+    margin-bottom: 105px;
+    margin-top: 35px;
+    color: rgb(1, 36, 66);
+}
+
+.k2{
+    margin-bottom: 70px;
+    margin-top: 35px;
+    color: rgb(1, 36, 66);
+}
+
+.k3{
+    margin-bottom: 105px;
+    margin-top: 20px;
+    color: rgb(1, 36, 66);
+}
+
+.k4{
+    margin-bottom: 70px;
+    margin-top: 35px;
+    color: rgb(1, 36, 66);
+}
+
+.k5{
+    margin-bottom: 105px;
+    margin-top: 35px;
+    color: rgb(1, 36, 66);
+}
+
+.k6{
+    margin-bottom: 105px;
+    margin-top: 35px;
+    color: rgb(1, 36, 66);
+
+}
+
+.k7{
+    margin-bottom: 105px;
+    margin-top: 35px;
+    color: rgb(1, 36, 66);
+}
+
+.k8{
+    margin-bottom: 130px;
+    margin-top: 35px;
+    color: rgb(1, 36, 66);
+}
+
+body{
+  font-family:  monospace;
+  margin: 0px;
+}
+/* .card button{
+    margin-top: 40px;
+} */
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+  --color: #1d416b;
+  font-family: inherit;
+  display: inline-block;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 20px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+}
+
+button::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: white;
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: 0.3s all;
+}
+
+button:hover::before {
+  top: -30px;
+  left: -30px;
+}

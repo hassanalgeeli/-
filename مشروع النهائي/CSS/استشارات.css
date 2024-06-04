@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: monospace;
+}
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: #0c2c44;
+  display: flex;
+  position: sticky;
+  top: 0px;
+}
+#navphoto {
+  width: 200px;
+  height: 70px;
+}
+#navdiv {
+  width: 70%;
+  height: 100%;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+.navwords {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 90px;
+  margin-right: 60px;
+  transition: all 0.2s ease-in-out;
+}
+.navwords:hover {
+  box-shadow: 1px 1px #0b273d, 2px 2px #0b273d;
+  transform: translateX(-3px);
+}
+.navicons {
+  width: 40px;
+  height: 40px;
+}
+
+#logindiv {
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+}
+#login {
+  width: 50px;
+  height: 50px;
+}
+.login-button {
+  background-color: #0c2c44;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#lboss {
+  width: 100%;
+  height: 2500px;
+  display: flex;
+  justify-content: center;
+}
+
+#bossh {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardsh {
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  height: 220px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  border: solid black 3px;
+  display: flex;
+  justify-content: space-between; /* لتوزيع المساحة بين العناصر بشكل متساوي */
+  align-items: center; /* لمحاذاة العناصر عمودياً في المنتصف */
+  padding: 0 20px; /* لإضافة مساحة داخلية للتحكم في المسافة */
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 125px;
+}
+
+.buttonsh {
+  background-color: rgb(62, 113, 180);
+  border-radius: 15px;
+  width: 70px;
+  height: 40px;
+  cursor: pointer;
+}
+.idsh {
+  width: 100%;
+  height: 100%;
+}
+
+.photo {
+  width: 200px;
+  height: 150px;
+  background-image: url(../img/401efd18-f0ea-4890-808d-97c70ba15caa.jpg); /* تأكد من أن المسار صحيح */
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+
+#Consultations {
+  margin-bottom: 20px;
+}
+#Consultationsdiv {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 100px;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.img{
+  width: 20px;
+  height: 20px;
+}
+.contact{
+  font-size: 15px;
+}
+button {
+  --color: #223d5c;
+  font-family: inherit;
+  display: inline-block;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 20px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+}
+
+button::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: white;
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: 0.3s all;
+}
+
+button:hover::before {
+  top: -30px;
+  left: -30px;
+}
+

@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: monospace
+  }
+  .navwords {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-right: 60px;
+    transition: all 0.2s ease-in-out;
+  }
+  .navwords:hover {
+    box-shadow: 1px 1px #0b273d, 2px 2px #0b273d;
+    transform: translateX(-3px);
+  }
+  
+  
+  nav {
+    width: 99%;
+    height: 70px;
+    background-color: rgb(12, 44, 68);
+    display: flex;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 20px  ;
+    
+  }
+  #navphoto {
+    width: 200px;
+    height: 70px;
+  }
+  #navdiv {
+    width: 70%;
+    height: 100%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+  }
+  .navicons {
+    width: 40px;
+    height: 40px;
+  }
